@@ -1,0 +1,42 @@
+07-01-2022 @ 00:11:43 - [check_ipn_response]: received _get content: {
+    "id": "23545541260",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+07-01-2022 @ 00:11:43 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+07-01-2022 @ 00:20:12 - [check_ipn_response]: received _get content: {
+    "id": "23545858155",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+07-01-2022 @ 00:20:12 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+07-01-2022 @ 00:20:36 - [check_ipn_response]: received _get content: {
+    "id": "23545858155",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+07-01-2022 @ 00:20:36 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+07-01-2022 @ 04:06:06 - [check_ipn_response]: received _get content: {
+    "id": "5049293521",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+07-01-2022 @ 04:06:06 - [check_ipn_response]: Not found Payments into Merchant_Order
+07-01-2022 @ 04:10:15 - [check_ipn_response]: received _get content: {
+    "id": "5049304270",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+07-01-2022 @ 04:10:15 - [check_ipn_response]: Not found Payments into Merchant_Order
+07-01-2022 @ 04:50:57 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+07-01-2022 @ 04:50:57 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+07-01-2022 @ 04:51:39 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+07-01-2022 @ 04:51:39 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order

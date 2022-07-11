@@ -1,0 +1,2406 @@
+06-24-2022 @ 21:21:11 - [check_ipn_response]: received _get content: {
+    "id": "5049304270",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:21:11 - [check_ipn_response]: Not found Payments into Merchant_Order
+06-24-2022 @ 21:31:09 - [process_payment]: customer being redirected to Mercado Pago.
+06-24-2022 @ 21:31:09 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-686",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "SingleStore",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 44,
+            "title": "SingleSport x 1",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 1,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Fabio",
+        "surname": "Melo",
+        "email": "singletemas@gmail.com",
+        "phone": {
+            "number": "+55 11 999975915"
+        },
+        "address": {
+            "zip_code": "08762-350",
+            "street_name": "Av Japão \/ Mogi das Cruzes SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+        "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+        "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "579818804",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "checkout_country": "mlb",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_production_mode": "no",
+            "mp_statement_descriptor": "Mercado Pago",
+            "_mp_category_id": "others",
+            "_mp_store_identificator": "WC-",
+            "_mp_debug_mode": "no",
+            "enabled": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_cabal": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_debcabal": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_pix": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_account_money": "yes",
+            "ex_payments_meliplace": "yes",
+            "ex_payments_pec": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/loja.singletemas.com.br",
+        "billing_address": {
+            "zip_code": "08762-350",
+            "street_name": "Av Japão",
+            "city_name": "Mogi das Cruzes",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "fabiomelodev@gmail.com",
+            "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-24-2022 @ 21:31:09 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:31:09.676-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "singletemas@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Fabio",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:31:09 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:31:09.676-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "singletemas@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Fabio",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-f580bf12-1d13-4544-91cd-c56caf886b3a",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:31:39 - [process_payment]: customer being redirected to Mercado Pago.
+06-24-2022 @ 21:31:39 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-686",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "SingleStore",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 44,
+            "title": "SingleSport x 1",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 1,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Fabio",
+        "surname": "Melo",
+        "email": "fabiomessiasgt@gmail.com",
+        "phone": {
+            "number": "+55 11 999975915"
+        },
+        "address": {
+            "zip_code": "08762-350",
+            "street_name": "Av Japão \/ Mogi das Cruzes SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+        "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+        "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "579818804",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "checkout_country": "mlb",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_production_mode": "no",
+            "mp_statement_descriptor": "Mercado Pago",
+            "_mp_category_id": "others",
+            "_mp_store_identificator": "WC-",
+            "_mp_debug_mode": "no",
+            "enabled": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_cabal": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_debcabal": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_pix": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_account_money": "yes",
+            "ex_payments_meliplace": "yes",
+            "ex_payments_pec": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/loja.singletemas.com.br",
+        "billing_address": {
+            "zip_code": "08762-350",
+            "street_name": "Av Japão",
+            "city_name": "Mogi das Cruzes",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "fabiomelodev@gmail.com",
+            "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-24-2022 @ 21:31:40 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:31:40.016-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "fabiomessiasgt@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Fabio",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:31:40 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:31:40.016-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "fabiomessiasgt@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Fabio",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-ce6d344f-dded-4ecd-9c38-3cd02727b14e",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:33:32 - [process_payment]: customer being redirected to Mercado Pago.
+06-24-2022 @ 21:33:32 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-686",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "SingleStore",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 44,
+            "title": "SingleSport x 1",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 1,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Leandro",
+        "surname": "Melo",
+        "email": "leandromelo9898@gmail.com",
+        "phone": {
+            "number": "+55 11 943528565"
+        },
+        "address": {
+            "zip_code": "08762-351",
+            "street_name": "Av Japão \/ Mogi das Cruzes SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+        "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+        "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "579818804",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "checkout_country": "mlb",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_production_mode": "no",
+            "mp_statement_descriptor": "Mercado Pago",
+            "_mp_category_id": "others",
+            "_mp_store_identificator": "WC-",
+            "_mp_debug_mode": "no",
+            "enabled": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_cabal": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_debcabal": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_pix": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_account_money": "yes",
+            "ex_payments_meliplace": "yes",
+            "ex_payments_pec": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/loja.singletemas.com.br",
+        "billing_address": {
+            "zip_code": "08762-351",
+            "street_name": "Av Japão",
+            "city_name": "Mogi das Cruzes",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "fabiomelodev@gmail.com",
+            "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-24-2022 @ 21:33:32 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:33:32.695-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-351"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 943528565"
+            },
+            "address": {
+                "zip_code": "08762-351",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandromelo9898@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Leandro",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:33:32 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_dQuMfMH5i8ys0&order_id=686&redirect&_wpnonce=c03ab68562",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/686\/?key=wc_order_dQuMfMH5i8ys0"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:33:32.695-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-686",
+        "id": "579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av Japão",
+                "zip_code": "08762-351"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "fabiomelodev@gmail.com",
+                "user_registration_date": "2022-01-15T14:38:35.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 943528565"
+            },
+            "address": {
+                "zip_code": "08762-351",
+                "street_name": "Av Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandromelo9898@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Leandro",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b4b0e24e-dbec-460a-acc4-854e83c5ae26",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:34:24 - [process_payment]: customer being redirected to Mercado Pago.
+06-24-2022 @ 21:34:24 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-687",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "SingleStore",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 44,
+            "title": "SingleSport x 2",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 2,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Leandro",
+        "surname": "Melo",
+        "email": "leandrowoa@gmail.com",
+        "phone": {
+            "number": "+55 11 999975915"
+        },
+        "address": {
+            "zip_code": "08730-020",
+            "street_name": "Av. Japão \/ Mogi das Cruzes SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N",
+        "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_BoXS8aPWUyd4N&order_id=687&redirect&_wpnonce=12fde117a9",
+        "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "579818804",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "checkout_country": "mlb",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_production_mode": "no",
+            "mp_statement_descriptor": "Mercado Pago",
+            "_mp_category_id": "others",
+            "_mp_store_identificator": "WC-",
+            "_mp_debug_mode": "no",
+            "enabled": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_cabal": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_debcabal": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_pix": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_account_money": "yes",
+            "ex_payments_meliplace": "yes",
+            "ex_payments_pec": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/loja.singletemas.com.br",
+        "billing_address": {
+            "zip_code": "08730-020",
+            "street_name": "Av. Japão",
+            "city_name": "Mogi das Cruzes",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "leandrowoa@gmail.com",
+            "user_registration_date": "2022-01-30T12:47:45.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-24-2022 @ 21:34:24 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_BoXS8aPWUyd4N&order_id=687&redirect&_wpnonce=12fde117a9",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:34:24.819-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-687",
+        "id": "579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 2",
+                "quantity": 1,
+                "unit_price": 2
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av. Japão",
+                "zip_code": "08730-020"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "leandrowoa@gmail.com",
+                "user_registration_date": "2022-01-30T12:47:45.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08730-020",
+                "street_name": "Av. Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandrowoa@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Leandro",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:34:24 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_BoXS8aPWUyd4N&order_id=687&redirect&_wpnonce=12fde117a9",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/687\/?key=wc_order_BoXS8aPWUyd4N"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:34:24.819-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-687",
+        "id": "579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 2",
+                "quantity": 1,
+                "unit_price": 2
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av. Japão",
+                "zip_code": "08730-020"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "leandrowoa@gmail.com",
+                "user_registration_date": "2022-01-30T12:47:45.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08730-020",
+                "street_name": "Av. Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandrowoa@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Leandro",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-b7eb2133-4899-49fa-8620-156bb10dea35",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:40:24 - [process_payment]: customer being redirected to Mercado Pago.
+06-24-2022 @ 21:40:24 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-688",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "SingleStore",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 44,
+            "title": "SingleSport x 1",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 1,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Messias",
+        "surname": "Melo",
+        "email": "leandromelo9898@gmail.com",
+        "phone": {
+            "number": "+55 11 999975915"
+        },
+        "address": {
+            "zip_code": "08762-350",
+            "street_name": "Av. Japão \/ Mogi das Cruzes SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME",
+        "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_okD3rCBlV2kME&order_id=688&redirect&_wpnonce=07d45adfbc",
+        "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "579818804",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "checkout_country": "mlb",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_production_mode": "no",
+            "mp_statement_descriptor": "Mercado Pago",
+            "_mp_category_id": "others",
+            "_mp_store_identificator": "WC-",
+            "_mp_debug_mode": "no",
+            "enabled": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_cabal": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_debcabal": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_pix": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_account_money": "yes",
+            "ex_payments_meliplace": "yes",
+            "ex_payments_pec": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/loja.singletemas.com.br",
+        "billing_address": {
+            "zip_code": "08762-350",
+            "street_name": "Av. Japão",
+            "city_name": "Mogi das Cruzes",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "leandromelo9898@gmail.com",
+            "user_registration_date": "2022-06-25T00:38:53.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+06-24-2022 @ 21:40:24 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_okD3rCBlV2kME&order_id=688&redirect&_wpnonce=07d45adfbc",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:40:24.822-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-688",
+        "id": "579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av. Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "leandromelo9898@gmail.com",
+                "user_registration_date": "2022-06-25T00:38:53.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av. Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandromelo9898@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Messias",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:40:24 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/loja.singletemas.com.br\/carrinho\/?cancel_order=true&order=wc_order_okD3rCBlV2kME&order_id=688&redirect&_wpnonce=07d45adfbc",
+            "pending": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME",
+            "success": "http:\/\/loja.singletemas.com.br\/finalizar-compra\/order-received\/688\/?key=wc_order_okD3rCBlV2kME"
+        },
+        "binary_mode": false,
+        "client_id": "1431156597667294",
+        "collector_id": 579818804,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-24T20:40:24.822-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-688",
+        "id": "579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "44",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Descricao",
+                "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+                "title": "SingleSport x 1",
+                "quantity": 1,
+                "unit_price": 1
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "_mp_category_id": "others",
+                "_mp_debug_mode": "no",
+                "_mp_store_identificator": "WC-",
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_production_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_country": "mlb",
+                "checkout_credential_prod": "deprecated",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_account_money": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_cabal": "yes",
+                "ex_payments_debcabal": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debmaster": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_meliplace": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_pix": "yes",
+                "ex_payments_visa": "yes",
+                "installments": "24",
+                "method": "redirect",
+                "mp_statement_descriptor": "Mercado Pago"
+            },
+            "billing_address": {
+                "city_name": "Mogi das Cruzes",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Av. Japão",
+                "zip_code": "08762-350"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "579818804",
+            "custom_settings": [],
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "http:\/\/loja.singletemas.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "leandromelo9898@gmail.com",
+                "user_registration_date": "2022-06-25T00:38:53.000+00:00"
+            }
+        },
+        "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "+55 11 999975915"
+            },
+            "address": {
+                "zip_code": "08762-350",
+                "street_name": "Av. Japão  Mogi das Cruzes SP BR",
+                "street_number": null
+            },
+            "email": "leandromelo9898@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Messias",
+            "surname": "Melo",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "SingleStore",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-24-2022 @ 21:40:44 - [check_ipn_response]: received _get content: {
+    "id": "5049597165",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:40:44 - [check_ipn_response]: Not found Payments into Merchant_Order
+06-24-2022 @ 21:40:45 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 21:40:45 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 21:40:45 - [check_ipn_response]: received _get content: {
+    "id": "5049597165",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:40:45 - [successful_request]: starting to process  update...
+06-24-2022 @ 21:40:45 - [successful_request]: updating metadata and status with data: {
+    "id": 5049597165,
+    "status": "closed",
+    "external_reference": "WC-688",
+    "preference_id": "579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+    "payments": [
+        {
+            "id": 23451807597,
+            "transaction_amount": 1,
+            "total_paid_amount": 1,
+            "shipping_cost": 0,
+            "currency_id": "BRL",
+            "status": "pending",
+            "status_detail": "pending_waiting_transfer",
+            "operation_type": "regular_payment",
+            "date_approved": "0001-01-01T00:00:00.000+00:00",
+            "date_created": "2022-06-24T20:40:44.000-04:00",
+            "last_modified": "2022-06-24T20:40:44.000-04:00",
+            "amount_refunded": 0
+        }
+    ],
+    "shipments": [],
+    "payouts": [],
+    "collector": {
+        "id": 579818804,
+        "email": "",
+        "nickname": "LEANDROWOA"
+    },
+    "marketplace": "NONE",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "date_created": "2022-06-24T20:40:43.581-04:00",
+    "last_updated": "2022-06-24T20:40:44.957-04:00",
+    "sponsor_id": null,
+    "shipping_cost": 0,
+    "total_amount": 1,
+    "site_id": "MLB",
+    "paid_amount": 1,
+    "refunded_amount": 0,
+    "payer": {
+        "id": 1148972144,
+        "email": ""
+    },
+    "items": [
+        {
+            "id": "44",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "picture_id": "898511-MLB50454162471_062022",
+            "title": "SingleSport x 1",
+            "quantity": 1,
+            "unit_price": 1
+        }
+    ],
+    "cancelled": false,
+    "additional_info": "",
+    "application_id": null,
+    "order_status": "payment_in_process",
+    "ipn_type": "merchant_order"
+}
+06-24-2022 @ 21:40:45 - [successful_request]: Changing order status to: pending
+06-24-2022 @ 21:40:49 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 21:40:49 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 21:40:50 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 21:40:50 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 21:41:07 - [check_ipn_response]: received _get content: {
+    "id": "5049597165",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:41:07 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 21:41:07 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 21:41:08 - [successful_request]: starting to process  update...
+06-24-2022 @ 21:41:08 - [successful_request]: updating metadata and status with data: {
+    "id": 5049597165,
+    "status": "closed",
+    "external_reference": "WC-688",
+    "preference_id": "579818804-3f1cffbf-821f-4e66-948f-000133381b76",
+    "payments": [
+        {
+            "id": 23451807597,
+            "transaction_amount": 1,
+            "total_paid_amount": 1,
+            "shipping_cost": 0,
+            "currency_id": "BRL",
+            "status": "approved",
+            "status_detail": "accredited",
+            "operation_type": "regular_payment",
+            "date_approved": "2022-06-24T20:41:07.000-04:00",
+            "date_created": "2022-06-24T20:40:44.000-04:00",
+            "last_modified": "2022-06-24T20:41:07.000-04:00",
+            "amount_refunded": 0
+        }
+    ],
+    "shipments": [],
+    "payouts": [],
+    "collector": {
+        "id": 579818804,
+        "email": "",
+        "nickname": "LEANDROWOA"
+    },
+    "marketplace": "NONE",
+    "notification_url": "http:\/\/loja.singletemas.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "date_created": "2022-06-24T20:40:43.581-04:00",
+    "last_updated": "2022-06-24T20:41:07.486-04:00",
+    "sponsor_id": null,
+    "shipping_cost": 0,
+    "total_amount": 1,
+    "site_id": "MLB",
+    "paid_amount": 1,
+    "refunded_amount": 0,
+    "payer": {
+        "id": 1148972144,
+        "email": ""
+    },
+    "items": [
+        {
+            "id": "44",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Descricao",
+            "picture_url": "http:\/\/loja.singletemas.com.br\/wp-content\/uploads\/2022\/01\/singlesport.singletemas.com_.br_-e1656112414932.png",
+            "picture_id": "898511-MLB50454162471_062022",
+            "title": "SingleSport x 1",
+            "quantity": 1,
+            "unit_price": 1
+        }
+    ],
+    "cancelled": false,
+    "additional_info": "",
+    "application_id": null,
+    "order_status": "paid",
+    "ipn_type": "merchant_order"
+}
+06-24-2022 @ 21:41:08 - [successful_request]: Changing order status to: processing
+06-24-2022 @ 21:41:08 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 21:41:08 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 21:51:40 - [check_ipn_response]: received _get content: {
+    "id": "5049293521",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:51:40 - [check_ipn_response]: Not found Payments into Merchant_Order
+06-24-2022 @ 21:56:15 - [check_ipn_response]: received _get content: {
+    "id": "5049304270",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+06-24-2022 @ 21:56:15 - [check_ipn_response]: Not found Payments into Merchant_Order
+06-24-2022 @ 22:00:27 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 22:00:27 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 22:00:43 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 22:00:43 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 22:36:18 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 22:36:18 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-24-2022 @ 22:36:28 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-24-2022 @ 22:36:28 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-25-2022 @ 04:40:42 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-25-2022 @ 04:40:42 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+06-25-2022 @ 04:40:59 - [check_ipn_response]: received _get content: {
+    "id": "23451807597",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+06-25-2022 @ 04:40:59 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
